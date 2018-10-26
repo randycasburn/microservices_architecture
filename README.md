@@ -26,5 +26,9 @@ Current solution is written against a MySQL datbase. I haven't provided the SQL 
 ## How To:
 
 1. Start the registration server first
-2. Start the Zuul server second
-3. Start any other microservices
+1. Start the Zuul server second
+1. Start any other microservices
+   1. File-copy category or product (or both) microservice
+   1. Change **only** the port number to an unused port
+   1. Launch copied services
+   1. Be amazed by simple client-side load balancing
