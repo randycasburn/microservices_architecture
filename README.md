@@ -17,7 +17,7 @@
 - Category
 - Product
 
- ![Architecture](https://github.com/randycasburn/microservices_architecture)
+ ![Architecture](/architecture.jpeg)
 
 ## Notes:
 
