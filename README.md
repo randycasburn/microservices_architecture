@@ -8,8 +8,8 @@
 
 ##### NOT used (yet?)
 
-- _Fault tolerance (circuit breakers) (using Hystrix)_
-- _Service to service via Feign_
+- [ ] _Fault tolerance (circuit breakers) (using Hystrix)_
+- [ ] _Service to service via Feign_
 
 #### This solution includes four individual Spring-Boot applicatons:
 - Eureka Registration Server
