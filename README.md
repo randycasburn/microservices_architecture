@@ -1,11 +1,13 @@
 # Microservices Architecture
 
 ## Minimal architecture using:
+
 - Spring Boot
 - Eureka
 - Zuul (Ribbon automagically)
 
 #####NOT used (yet?)
+
 - _Fault tolerance (circuit breakers) (using Hystrix)_
 - _Service to service via Feign_
 
@@ -18,6 +20,7 @@
  ![Architecture](https://github.com/randycasburn/microservices_architecture)
 
 ##Notes:
+
 Current solution is written against a MySQL datbase. I haven't provided the SQL to generate that data. I will provide an H2 solution.
 
 ##How To:
