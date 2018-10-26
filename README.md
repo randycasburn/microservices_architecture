@@ -6,12 +6,12 @@
 - Eureka
 - Zuul (Ribbon automagically)
 
-#####NOT used (yet?)
+##### NOT used (yet?)
 
 - _Fault tolerance (circuit breakers) (using Hystrix)_
 - _Service to service via Feign_
 
-####This solution includes four individual Spring-Boot applicatons:
+#### This solution includes four individual Spring-Boot applicatons:
 - Eureka Registration Server
 - Zuul Router and Filter
 - Category
@@ -19,11 +19,11 @@
 
  ![Architecture](https://github.com/randycasburn/microservices_architecture)
 
-##Notes:
+## Notes:
 
 Current solution is written against a MySQL datbase. I haven't provided the SQL to generate that data. I will provide an H2 solution.
 
-##How To:
+## How To:
 
 1. Start the registration server first
 2. Start the Zuul server second
